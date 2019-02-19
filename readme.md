@@ -5,13 +5,13 @@
 **Installation**
 -
 
-Follow this article <a href="https://codescompanion.com">Steps to follow</a>
+Follow this article <a href="https://codescompanion.com/instamojo-payment-gateway-integration-in-laravel/">Steps to follow</a>
 
 
 **Contribute**
 -
 
-Contributions are welcome and will be fully credited. We accept contributions via Pull Requests on [GitHub](https://github.com/pringal/Laravel-Dynamic-Quiz-Customizable-Basic-Demo).
+Contributions are welcome and will be fully credited. We accept contributions via Pull Requests on [GitHub](https://github.com/pringal/InstamojoLaravel).
 
 **Loveware**
 -
