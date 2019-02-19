@@ -28,9 +28,8 @@ class PaymentController extends Controller
         
         $ch = curl_init();
 
-        // For Live Payment
-        // curl_setopt($ch, CURLOPT_URL, 'https://www.instamojo.com/api/1.1/payment-requests/');
-        // For Test payment
+        // For Live Payment change CURLOPT_URL to https://www.instamojo.com/api/1.1/payment-requests/
+
         curl_setopt($ch, CURLOPT_URL, 'https://test.instamojo.com/api/1.1/payment-requests/');
         curl_setopt($ch, CURLOPT_HEADER, FALSE);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
@@ -99,8 +98,7 @@ class PaymentController extends Controller
         if($data->success == true) {
             if($data->payment->status == 'Credit') {
                 
-                // Here Your Database Insert Login
-                // dd($data);
+               // From here you can save respose data in database from $data
 
                 \Session::put('success','Your payment has been pay successfully, Enjoy!!');
                 return redirect()->route('payment');
