@@ -1,6 +1,6 @@
 # Instamojo payment gateway integration in Laravel
 
- Ready-made customizable script for multiple choice question quiz.
+ This is about integrating Indian payment gateway integration named instamojo in laravel framework.
 
 **Installation**
 -
